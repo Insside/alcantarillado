@@ -1,0 +1,1 @@
+<?php $solicitudes =new Solicitudes();$solicitudes->eliminar($_REQUEST['solicitud']);?><script type="text/javascript"> MUI.closeWindow($('<?php  echo($formulario->ventana); ?>')); MUI.Alcantarillado_Solicitudes_Generales();</script>
